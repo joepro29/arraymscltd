@@ -8,7 +8,6 @@ if (navToggle) {
   });
 }
 
-// Close nav on link click
 document.querySelectorAll('.nav-links a').forEach(link => {
   link.addEventListener('click', () => {
     navLinks.classList.remove('open');
@@ -34,3 +33,17 @@ window.addEventListener('scroll', () => {
     header.classList.remove('header-scrolled');
   }
 });
+
+// Hero background slideshow
+(function() {
+  const slides = document.querySelectorAll('.hero-slide');
+  if (slides.length < 2) return;
+  let current = 0;
+  const total = slides.length;
+  slides[0].classList.add('active');
+  setInterval(() => {
+    slides[current].classList.remove('active');
+    current = (current + 1) % total;
+    slides[current].classList.add('active');
+  }, 5000);
+})();
