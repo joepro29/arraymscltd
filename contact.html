@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us - ARRAY MSC LTD | Biomedical Engineering Company Kampala</title>
+  <meta name="description" content="Contact ARRAY MSC LTD for biomedical engineering services, medical supplies, and hospital equipment. Located in Kampala, Uganda. Call or email us today.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="header">
+    <div class="container">
+      <nav class="navbar">
+        <a href="index.html" class="nav-brand">
+          <img src="images/logo-placeholder.png" alt="ARRAY MSC LTD Logo" onerror="this.style.display='none'">
+          ARRAY MSC LTD
+        </a>
+        <button class="nav-toggle" aria-label="Toggle navigation">
+          <span></span><span></span><span></span>
+        </button>
+        <div class="nav-links">
+          <a href="index.html">Home</a>
+          <a href="about.html">About</a>
+          <a href="services.html">Services</a>
+          <a href="gallery.html">Gallery</a>
+          <a href="contact.html" class="active">Contact</a>
+          <a href="faq.html">FAQ</a>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Banner -->
+  <section class="page-banner">
+    <div class="container">
+      <h1>Contact Us</h1>
+      <p>Get in touch with Array Medical Suppliers and Consults Limited</p>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="section">
+    <div class="container">
+      <div class="contact-grid">
+        <div class="contact-info">
+          <h3>Get In Touch</h3>
+          <p style="color: var(--text-light); margin-bottom: 32px;">We're here to help with all your biomedical engineering needs. Reach out to us through any of the channels below.</p>
+
+          <div class="contact-detail">
+            <div class="icon">&#128205;</div>
+            <div>
+              <h4>Our Address</h4>
+              <p>Johnstone Street, Titanic Plaza<br>Suite TD-28<br>Kampala, Uganda</p>
+            </div>
+          </div>
+
+          <div class="contact-detail">
+            <div class="icon">&#128231;</div>
+            <div>
+              <h4>Email Us</h4>
+              <p>arraymsc@gmail.com</p>
+            </div>
+          </div>
+
+          <div class="contact-detail">
+            <div class="icon">&#128222;</div>
+            <div>
+              <h4>General Inquiries</h4>
+              <p>+256 (0) 708 155 972<br>+256 (0) 781 482 600</p>
+            </div>
+          </div>
+
+          <div class="contact-detail">
+            <div class="icon">&#128295;</div>
+            <div>
+              <h4>Services & Repair</h4>
+              <p>+256 (0) 701 120 043<br>+256 (0) 789 949 589</p>
+            </div>
+          </div>
+
+          <div class="contact-detail">
+            <div class="icon">&#128722;</div>
+            <div>
+              <h4>Sales & Supplies</h4>
+              <p>+256 (0) 752 859 287<br>+256 (0) 771 494 506</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="contact-form">
+          <h3 style="font-size: 1.3rem; color: var(--secondary); margin-bottom: 24px;">Send Us a Message</h3>
+          <form name="contact" netlify netlify-honeypot="bot-field" action="/thank-you.html">
+            <input type="hidden" name="form-name" value="contact">
+            <p style="display:none;"><label>Don't fill this out: <input name="bot-field"></label></p>
+
+            <label for="name">Full Name</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email Address</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="phone">Phone Number</label>
+            <input type="tel" id="phone" name="phone">
+
+            <label for="service">Service Interested In</label>
+            <select id="service" name="service">
+              <option value="">Select a service...</option>
+              <option value="Medical Gas Pipeline System">Medical Gas Pipeline System</option>
+              <option value="Medical Theatre Setup">Medical Theatre Setup</option>
+              <option value="Technical Services">Technical Services</option>
+              <option value="AC Installations">AC Installations</option>
+              <option value="ICU Gas Pipeline & Curtains">ICU Gas Pipeline & Curtains</option>
+              <option value="Equipment Servicing & Repairs">Equipment Servicing & Repairs</option>
+              <option value="Autoclave Services">Autoclave Services</option>
+              <option value="PCR Machine Services">PCR Machine Services</option>
+              <option value="Other">Other</option>
+            </select>
+
+            <label for="message">Your Message</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit" class="btn btn-primary">Send Message</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Map Section (Static placeholder) -->
+  <section class="section section-bg">
+    <div class="container text-center">
+      <h2 class="section-title">Visit Our Office</h2>
+      <p class="section-subtitle">Johnstone Street, Titanic Plaza, Suite TD-28, Kampala, Uganda</p>
+      <div style="border-radius: var(--radius); overflow: hidden; box-shadow: var(--shadow); max-width: 800px; margin: 0 auto; height: 350px; background: #e9ecef; display: flex; align-items: center; justify-content: center; color: var(--text-light);">
+        <p>Google Map Embed — <a href="https://maps.google.com/?q=Titanic+Plaza+Kampala+Uganda" target="_blank">View on Google Maps</a></p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <h3>ARRAY MSC LTD</h3>
+          <p>Array Medical Suppliers and Consults Limited is a leading biomedical engineering and medical supplies company based in Kampala, Uganda.</p>
+        </div>
+        <div class="footer-links">
+          <h3>Quick Links</h3>
+          <a href="index.html">Home</a>
+          <a href="about.html">About Us</a>
+          <a href="services.html">Services</a>
+          <a href="gallery.html">Gallery</a>
+          <a href="contact.html">Contact</a>
+          <a href="faq.html">FAQ</a>
+        </div>
+        <div class="footer-links">
+          <h3>Services</h3>
+          <a href="services.html">Medical Gas Pipeline</a>
+          <a href="services.html">Theatre Setup</a>
+          <a href="services.html">Technical Services</a>
+          <a href="services.html">AC Installations</a>
+          <a href="services.html">Equipment Repairs</a>
+        </div>
+        <div class="footer-contact">
+          <h3>Contact Info</h3>
+          <p><strong>Address:</strong> Johnstone Street, Titanic Plaza, Suite TD-28, Kampala, Uganda</p>
+          <p><strong>Email:</strong> arraymsc@gmail.com</p>
+          <p><strong>Inquiries:</strong> +256 (0) 708 155 972</p>
+          <p><strong>Services & Repair:</strong> +256 (0) 701 120 043</p>
+          <p><strong>Sales & Supplies:</strong> +256 (0) 752 859 287</p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        &copy; 2026 ARRAY MSC LTD. All rights reserved. | Array Medical Suppliers and Consults Limited
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
